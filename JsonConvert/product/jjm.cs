@@ -13,5 +13,6 @@ namespace ConvertJson.product
         public PA pa { get; set; }
         public PB pb { get; set; }
         public int pjIdx { get; set; }
+        public List<Hole> BKGZ { get; set; }
     }
 }

@@ -61,6 +61,7 @@
     <Compile Include="linkObj\LinkObj.cs" />
     <Compile Include="linkRule\LinkRule.cs" />
     <Compile Include="linkRule\LJ.cs" />
+    <Compile Include="product\Hole.cs" />
     <Compile Include="product\jjm.cs" />
     <Compile Include="product\PA.cs" />
     <Compile Include="product\Parameter.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="product\PB.cs" />
     <Compile Include="product\Product.cs" />
     <Compile Include="product\Revolve.cs" />
+    <Compile Include="product\WZ.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
