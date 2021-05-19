@@ -307,6 +307,13 @@ namespace ConvertJson
             //进行反序列化
             Product product = JsonConvert.DeserializeObject<Product>(jsonStr);
             string s=computeHole(product);
+            string result1 = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+@"\新json.json";//结果保存到桌面
+            FileStream fs = new FileStream(result1, FileMode.Append);
+            StreamWriter wr = null;
+            wr = new StreamWriter(fs);
+            wr.WriteLine(s);
+            wr.Close();
+            MessageBox.Show("转换成功！");
         }
         /// <summary>
         /// 读取Json文件内容
